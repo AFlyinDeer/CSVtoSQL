@@ -12,6 +12,7 @@ public class CSVReader {
         String line;
         String cvsSplitBy = ",";
 
+        // open file at csvFilePath, read data into line and add line to data list
         try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
 
             while ((line = br.readLine()) != null) {
@@ -26,6 +27,7 @@ public class CSVReader {
                 data.add(row);
             }
 
+        // catch error for missing file
         } catch (IOException e) {
              System.out.println("Error reading CSV file: File could not be found. Check URL.");
              System.exit(0);
