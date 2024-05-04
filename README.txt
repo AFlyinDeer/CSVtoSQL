@@ -13,14 +13,14 @@ This program serves to streamline the process of converting CSV (Comma-Separated
 ## Usage
 
 1. Prepare your CSV file in the following format:
-```
+
 ProductName,SKU,Quantity,DateAdded,Color,Size
 Shirt,SKU00001,10,2022-03-15,Green,L
 Shirt,SKU00002,5,2022-03-16,Red,M
 Pants,SKU00003,2,2022-03-17,Green,M
 Hat,SKU00004,8,2022-03-18,Black,XL
 Pants,SKU00005,12,2022-03-19,Blue,S
-```
+
 
 Ensure each line adheres to the specified structure: ProductName, SKU, Quantity, DateAdded, Color, Size.
 
